@@ -1,1 +1,1 @@
-# Yamaguti
+Simple implementation of snake game
