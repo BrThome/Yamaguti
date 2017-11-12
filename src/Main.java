@@ -6,8 +6,8 @@ import javax.swing.JFrame;
 
 public class Main {
 
-	public static void main() {
-		JFrame frame = new JFrame("BombermanFX"); // Cria frame sob o nome "Snake"
+	public static void main(String[] args) {
+		JFrame frame = new JFrame("BombermanFX"); // Cria frame sob o nome XXX
 		frame.setContentPane(new Board()); // O conteúdo dessa Frame se torna um PainelJogo (Painel de Jogo por herança é um JPanel)
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Determina que nada acontece ao apertar para fechar a janela
 		frame.addWindowListener(new WindowAdapter() {
