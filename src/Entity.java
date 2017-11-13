@@ -7,7 +7,7 @@ public class Entity {
 
 	private int y;
 
-	private int size;
+	protected int size;
 
 	private boolean solid;
 
@@ -16,11 +16,6 @@ public class Entity {
 		this.y = y;
 		this.size = size;
 		this.solid = solid;
-	}
-
-	public static void Destroy(Entity entity) {
-		entity = null;
-		// adicionar mais codigo
 	}
 
 	public int getX() {
