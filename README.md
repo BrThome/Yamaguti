@@ -1,1 +1,1 @@
-Simple implementation of snake game
+Bomberman in JavaFX
